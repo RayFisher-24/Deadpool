@@ -1,0 +1,87 @@
+* {
+    color: white;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-inline : hidden;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url("banner.jpg");
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    cursor: pointer;
+}
+
+.whatsappicon {
+    width: 20px;
+    cursor: pointer;
+    padding-right: 9px;
+}
+nav {
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.content {
+    margin-top: 180px;
+    margin-left: 120px;
+}
+
+.content h1 {
+    font-size: 52px;
+    color: grey;
+}
+.content p {
+    font-size: 22px;
+    color: rgb(5, 142, 146);
+}
+.image1 {
+    bottom: 0;
+    right: 16;
+    position: absolute; 
+    padding-left: 100px;
+    margin-left: 425px;
+    margin-top: 15px;
+}
+
+.social-link {
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -120px;
+    bottom: 160px;
+}
+.social-link a{
+    text-decoration: none;
+    color: grey;
+    padding-right: 20px;
+    font-size: 14px;
+}
